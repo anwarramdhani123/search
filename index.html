@@ -14,7 +14,7 @@
           <input style="float: left; background: #1abc9c; margin: auto; vertical-align: middle; cursor: pointer; padding: 16px 20px; font-size: 14px; text-align: center; letter-spacing: .5px; border: 0; width: 100%; border-radius: 4px; color: #fff; font-weight: 500; transition: all .2s ease; font-family: 'Poppins', sans-serif;"  type="submit" id="myinput" value="Shorten">
       </div>
     <p id="message"></p>
- <script style="font-family: 'Poppins', sans-serif;">
+ <script>
 document.getElementById("myinput").onclick = function() {
   var link = document.getElementById("linkinput").value;
   var data = {
@@ -33,7 +33,7 @@ document.getElementById("myinput").onclick = function() {
         return response.json();
     }) 
     .then(function(data){ 
-    document.getElementById("message").innerHTML = "Your short link is " + data.shortURL })
+    document.getElementById("message").innerHTML = <p style=font-family: 'Poppins', sans-serif;" "Your short link is "</p> + data.shortURL })
     document.getElementById("linkinput").value='';
  }
     </script>
