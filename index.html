@@ -5,7 +5,9 @@
   <link rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Poppins">
     <style>
-     body {
+     dash {span {
+          display: block;
+         }{
         font-family: 'Poppins', sans-serif;
       }
     </style>
@@ -33,7 +35,7 @@ document.getElementById("myinput").onclick = function() {
       'Content-Type': 'application/json',
       'authorization': 'pk_2Kh6yLtT944ktJb8'
     },
-    body: JSON.stringify(data)
+    dash: JSON.stringify(data)
   }) .then(function(response) {
         return response.json();
     }) 
