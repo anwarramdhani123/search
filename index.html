@@ -2,10 +2,9 @@
   <head>
   <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
    <title>AR - Shortener URL</title>
-  <link>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet type=text/css">>
   </head>
   <body>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" type='text/css'>
   <center>
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <br><br/><h1 style="font-family: 'Poppins', sans-serif; border-right-width: 14px; border-left-width: 14px;" class="message">Perpendek Link Menjadi Pendek</h1>
@@ -33,11 +32,10 @@ document.getElementById("myinput").onclick = function() {
         return response.json();
     }) 
     .then(function(data){ 
-    document.getElementById("message").innerHTML = "<p style=font-family: 'Poppins', sans-serif;" text="Your short link is "</p>" + data.shortURL })
+    document.getElementById("message").innerHTML = "Link Punya Kamu: " + data.shortURL })
     document.getElementById("linkinput").value='';
  }
     </script>
-   </link>
    </center>
    </link>
   </body>
