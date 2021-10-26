@@ -1,6 +1,9 @@
 body {
   background-color: #f1f1f1;
 }
+{
+font: Poppins;
+}
 
 .vertical-center {
   min-height: 100%;
